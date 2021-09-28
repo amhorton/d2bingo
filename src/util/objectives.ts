@@ -43,6 +43,11 @@ export const objectives = [
   "Complete the Deep Stone Crypt spacewalk",
   "Heroic Blind Well",
   "Each player has claimed rewards from an Enforcer Brig",
+  "Open the rainbow road secret chest in Prophecy",
+  "Complete any raid encounter with a fireteam of four or fewer",
+  "Stun each type of champion at least once",
+  "Obtain an adaptive frame auto rifle",
+  "Complete the weekly Dreaming City story quest",
 ];
 
 export function getObjectiveSet (): string[] {

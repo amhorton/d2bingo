@@ -87,14 +87,16 @@ const CardWrapper = styled.div`
   height: 600px;
 `;
 
-const Space = styled.div<SpaceCustomProps>`
+const Space = styled.button<SpaceCustomProps>`
   display: flex;
+  border: none;
   justify-content: center;
   align-items: center;
   background-color: ${getBackgroundColorFromProps};
   height: 100%;
   width: 100%;
   text-align: center;
+  cursor: pointer;
 
   :hover {
     filter: brightness(85%);
