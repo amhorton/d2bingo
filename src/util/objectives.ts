@@ -41,6 +41,8 @@ export const objectives = [
   "Complete the final tier of Altars of Sorrow",
   "Kill two Champions with one shot or ability",
   "Complete the Deep Stone Crypt spacewalk",
+  "Heroic Blind Well",
+  "Each player has claimed rewards from an Enforcer Brig",
 ];
 
 export function getObjectiveSet (): string[] {
